@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/test12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_background"
+            android:fillViewport="true"
+            android:onClick="hidekeyboard"
+            android:orientation="vertical"
+            android:padding="15dp"
+            tools:context=".login.LoginActivity">
+
+            <LinearLayout
+                android:id="@+id/BackBtn1"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="top|right"
+                android:background="@drawable/ic_baseline_arrow_back_ios_new_24"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/loginmain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Login"
+                android:textColor="@color/black1"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/idtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/아이디"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/idEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="example@naver.com"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:minHeight="50dp"
+                android:visibility="visible"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/pwtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/비밀번호"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/pwEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/비밀번호입력"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:minHeight="50dp"
+                android:visibility="visible"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:textColor="@color/black1"
+                android:text="   Enter" />
+
+            <Button
+                android:id="@+id/googleBtn"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/black1"
+                android:drawableLeft="@drawable/ic_goo"
+                android:text="Google" />
+
+
+            <TextView
+                android:id="@+id/authMainTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

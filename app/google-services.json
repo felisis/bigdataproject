@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666834309318",
+    "project_id": "mldlproject",
+    "storage_bucket": "mldlproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666834309318:android:5cbf1dc58b72f2b52247c7",
+        "android_client_info": {
+          "package_name": "com.felis.mldl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666834309318-ot6cj3ufhfevv2lp57lfbcp5ooetgras.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.felis.mldl",
+            "certificate_hash": "9b3f2c0431c20d3985da5c336967464bf31ccbbb"
+          }
+        },
+        {
+          "client_id": "666834309318-opf667pdsmt5ei1cs94toq9q00kc3sd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0lWhmezC5AO3uyCu2e34yTvCLQb7LH_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666834309318-opf667pdsmt5ei1cs94toq9q00kc3sd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

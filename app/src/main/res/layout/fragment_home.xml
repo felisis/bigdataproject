@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.HomeFragment"
+    android:background="@drawable/main1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="#FFFFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sans_medium"
+        android:autoSizeTextType="uniform"
+        android:text="brow beauty tips"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/nextbtn"
+        app:layout_constraintEnd_toEndOf="@+id/nextbtn"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="@+id/nextbtn"
+        app:layout_constraintTop_toTopOf="@+id/nextbtn"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:background="@drawable/pngbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sans_medium"
+        android:text="EYEBROW"
+        android:textSize="32sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/nextbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/sans_bold"
+        android:text="CHANGE OF EYEBROW"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.561"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
